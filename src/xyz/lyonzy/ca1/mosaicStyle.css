@@ -1,0 +1,43 @@
+#blueGrid {
+    -fx-background-color: #0000ff;
+}
+
+#yellowGrid{
+    -fx-background-color: #ffe44a;
+}
+
+#purplePane{
+    -fx-background-color: #cc00ff;
+}
+
+#greyPane{
+    -fx-background-color: #AAAAAA;
+}
+
+#pinkPane{
+    -fx-background-color: #ff66ff;
+}
+
+#bluePane{
+    -fx-background-color: #33ccff;
+}
+
+#red{
+    -fx-background-color: #ff0000;
+}
+
+#grey{
+    -fx-background-color: #6f6f6f;
+}
+
+#brown{
+    -fx-background-color: #9e5b27;
+}
+
+#orange{
+    -fx-background-color: #ff680b;
+}
+
+#green{
+    -fx-background-color: #11ff00;
+}

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+  </rowConstraints>
+   <children>
+      <GridPane>
+        <columnConstraints>
+          <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+              </rowConstraints>
+               <children>
+
+
+                  <Pane prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="1" />
+                   <Pane prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="2" />
+                   <Pane prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="3" />
+                   <Pane prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="4" />
+                   <Pane prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="5" />
+                  <Pane layoutX="26.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.rowIndex="1" />
+                  <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Pane layoutX="93.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Pane layoutX="42.0" layoutY="31.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <Pane layoutX="42.0" layoutY="31.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <Pane layoutX="76.0" layoutY="31.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Pane layoutX="76.0" layoutY="31.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Pane layoutX="26.0" layoutY="52.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Pane layoutX="26.0" layoutY="52.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Pane layoutX="59.0" layoutY="52.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <Pane layoutX="59.0" layoutY="52.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <Pane layoutX="93.0" layoutY="52.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.rowIndex="3" />
+                  <Pane layoutX="93.0" layoutY="52.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.rowIndex="3" />
+                  <Pane layoutX="10.0" layoutY="73.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Pane layoutX="10.0" layoutY="73.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Pane layoutX="42.0" layoutY="73.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Pane layoutX="42.0" layoutY="73.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Pane layoutX="76.0" layoutY="73.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Pane layoutX="76.0" layoutY="73.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Pane layoutX="26.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Pane layoutX="59.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <Pane layoutX="93.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.rowIndex="5" />
+                  <Pane layoutX="10.0" layoutY="135.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Pane layoutX="42.0" layoutY="135.0" prefHeight="200.0" prefWidth="200.0" id="yellowGrid"  GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Pane layoutX="59.0" layoutY="35.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <Pane layoutX="93.0" layoutY="35.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.rowIndex="2" />
+                  <Pane layoutX="42.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" />
+                  <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <Pane layoutX="76.0" layoutY="60.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Pane layoutX="26.0" layoutY="85.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Pane layoutX="59.0" layoutY="85.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <Pane layoutX="93.0" layoutY="85.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.rowIndex="4" />
+                  <Pane layoutX="10.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Pane layoutX="42.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Pane layoutX="76.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Pane layoutX="26.0" layoutY="135.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <Pane layoutX="59.0" layoutY="135.0" prefHeight="200.0" prefWidth="200.0" id="blueGrid" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+
+               </children>
+            </GridPane>
+            <FlowPane alignment="CENTER" prefHeight="200.0" prefWidth="200.0" id="purplePane" GridPane.rowIndex="1">
+               <children>
+                  <Pane>
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" height="35.0" layoutX="26.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff9e" height="35.0" layoutX="16.0" layoutY="6.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                     </children>
+                  </Pane>
+               </children>
+            </FlowPane>
+         </children>
+      </GridPane>
+      <GridPane id="greyPane" GridPane.columnIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <Pane layoutX="76.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" id="pinkPane"/>
+            <HBox alignment="TOP_CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="100.0" prefWidth="200.0" snapToPixel="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <children>
+                  <Rectangle fill="#FF5300" height="8.0"  width="8.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" right="2.0" top="3.0" />
+                     </HBox.margin></Rectangle>
+                   <Rectangle  fill="#FFFFFF" height="8.0" width="8.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" right="2.0" top="3.0" />
+                     </HBox.margin></Rectangle>
+                   <Rectangle fill="#22ff1f" height="8.0" width="8.0">
+                     <HBox.margin>
+                        <Insets bottom="5.0" right="2.0" top="3.0" />
+                     </HBox.margin></Rectangle>
+               </children>
+            </HBox>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" id="bluePane" GridPane.columnIndex="2" />
+         </children>
+      </GridPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.columnSpan="1">
+         <top>
+            <Pane prefHeight="10.0" prefWidth="10.0" id="red" BorderPane.alignment="CENTER" />
+         </top>
+         <left>
+            <Pane prefHeight="10.0" prefWidth="10.0" id="grey" BorderPane.alignment="CENTER" />
+         </left>
+         <center>
+                  <FlowPane alignment="CENTER" layoutX="20.0" layoutY="120.0" id="brown" BorderPane.alignment="CENTER">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#82ff00" height="40.0" width="40.0" />
+                     </children>
+                  </FlowPane>
+         </center>
+         <right>
+            <Pane prefHeight="10.0" prefWidth="10.0" id="orange" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <Pane prefHeight="10.0" prefWidth="10.0" id="green" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</GridPane>
