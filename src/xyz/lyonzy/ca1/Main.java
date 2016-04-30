@@ -15,7 +15,6 @@ public class Main extends Application {
         primaryStage.setTitle("Mosaic");
         primaryStage.setScene(new Scene(root, 300, 300));
         primaryStage.show();
-
     }
 
 
